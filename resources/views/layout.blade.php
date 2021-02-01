@@ -87,6 +87,7 @@
                     <li><a href="/">Laravel</a></li>
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/hello">Hello</a></li>
+                    <li><a href="/projects">Projects</a></li>
                 </ul>
                     @yield('data')
                 <div class="links">
