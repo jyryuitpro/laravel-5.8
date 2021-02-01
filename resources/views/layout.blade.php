@@ -88,6 +88,7 @@
                     <li><a href="/contact">Contact</a></li>
                     <li><a href="/hello">Hello</a></li>
                 </ul>
+                    @yield('data')
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
