@@ -11,27 +11,34 @@
 |
 */
 
-Route::get('/', function () {
-    $books = [
-        'Harry Potter',
-        'Laravel',
-        '<script>alert("hello");</script>',
-    ];
+//Route::get('/', function () {
+//    $books = [
+//        'Harry Potter',
+//        'Laravel',
+//        '<script>alert("hello");</script>',
+//    ];
 //    return view('welcome', [
 //        'books' => $books
 //    ]);
 
-    return view('welcome')->with([
-        'books' => $books
-    ]);
+//    return view('welcome')->with([
+//        'books' => $books
+//    ]);
 
 //    return view('welcome')->withBooks($books);
-});
+//});
 
-Route::get('/hello', function () {
-    return view('hello');
-});
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+//Route::get('/hello', function () {
+//    return view('hello');
+//});
+
+//Route::get('/contact', function () {
+//    return view('contact');
+//});
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/hello', 'HomeController@hello');
+
+Route::get('/contact', 'HomeController@contact');
