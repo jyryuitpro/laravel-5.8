@@ -1,9 +1,9 @@
 @extends('layout')
 
 @section('title')
-    Laravel
+    Contact
 @endsection
 
 @section('content')
-    Laravel
+    Contact
 @endsection
