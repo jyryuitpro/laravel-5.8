@@ -8,6 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="{{ mix('css/tailwind.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -89,6 +90,7 @@
                     <li><a href="/hello">Hello</a></li>
                     <li><a href="/projects">Projects</a></li>
                 </ul>
+                <div class="bg-red-400">hello</div>
                     @yield('data')
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
